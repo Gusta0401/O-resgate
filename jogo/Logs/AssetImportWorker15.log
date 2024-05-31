@@ -1,0 +1,1442 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 3917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+U:/jogo/jogo
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+54155
+Successfully changed project path to: U:/jogo/jogo
+U:/jogo/jogo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8616] Host "[IP] 192.168.15.12 [Port] 0 [Flags] 2 [Guid] 1840169841 [EditorId] 1840169841 [Version] 1048832 [Id] WindowsEditor(7,Deiverson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8616] Host "[IP] 192.168.15.12 [Port] 0 [Flags] 2 [Guid] 1840169841 [EditorId] 1840169841 [Version] 1048832 [Id] WindowsEditor(7,Deiverson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1899.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path U:/jogo/jogo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 600 (ID=0x3185)
+    Vendor:   Intel
+    VRAM:     1958 MB
+    Driver:   23.20.16.4973
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017522 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 253.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1263ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (722ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (254ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 259.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.128 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3130ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2490ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (724ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (192ms)
+			SetupLoadedEditorAssemblies (1219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (260ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.11 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.5 KB). Loaded Objects now: 4244.
+Memory consumption went from 146.3 MB to 146.1 MB.
+Total: 29.291800 ms (FindLiveObjects: 1.196100 ms CreateObjectMapping: 0.424200 ms MarkObjects: 26.880000 ms  DeleteObjects: 0.787900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 608439.236757 seconds.
+  path: Assets/script/MenuPrincipal.cs
+  artifactKey: Guid(f0373cace76d59742a5f8add211e6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MenuPrincipal.cs using Guid(f0373cace76d59742a5f8add211e6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db126f59f45cd655b0859dbd071205f') in 0.814151 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.005808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 22.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (22551ms)
+		BeginReloadAssembly (14923ms)
+			ExecutionOrderSort (19ms)
+			DisableScriptedObjects (3487ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5061ms)
+		EndReloadAssembly (6565ms)
+			LoadAssemblies (7301ms)
+			RebuildTransferFunctionScriptingTraits (44ms)
+			SetupTypeCache (1152ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1087ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (35ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (569ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4247.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 215.111400 ms (FindLiveObjects: 1.071500 ms CreateObjectMapping: 0.280300 ms MarkObjects: 213.176600 ms  DeleteObjects: 0.579500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1716.317730 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed55adf388e385dc213518618cc4365c') in 0.761946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1416.156588 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c29cadb963f054916fda4ebdbb6edc') in 1.615570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.021549 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f61b4db11f43499454821e06b426a7a') in 0.317394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.495510 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969240391f0037b61eb2d9c8fed2410a') in 0.048003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.321457 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909fa4398615f60acc4a5ed7d951f4bd') in 0.023090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.109978 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583285b3bd0e637f708ad6ffcafc6938') in 0.051441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.227116 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dc6d552884eb1b13a7e0df11c89068') in 0.327158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.721677 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7e8877a07f4e8676a879512875406a') in 0.003671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.973364 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c038ae0ee45cfc09c934c8f05fa4f279') in 0.106543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.851851 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9282b0a1fabbe81ee4d37e3669c890') in 0.002406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.886077 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b946a659e6a5415f48a598f7f3f5a821') in 1.072108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.946980 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d6624ba96e1101b6bb7ac983035325') in 0.197915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 514.738138 seconds.
+  path: Assets/script/Time.cs
+  artifactKey: Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Time.cs using Guid(35e54643563bff34d8339f6b87a621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3549b1788fc6b12f04905c8199108c98') in 0.003003 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.134076 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 178.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (178819ms)
+		BeginReloadAssembly (143341ms)
+			ExecutionOrderSort (13ms)
+			DisableScriptedObjects (16264ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102856ms)
+		EndReloadAssembly (31139ms)
+			LoadAssemblies (24954ms)
+			RebuildTransferFunctionScriptingTraits (78ms)
+			SetupTypeCache (10900ms)
+			ReleaseScriptCaches (221ms)
+			RebuildScriptCaches (1128ms)
+			SetupLoadedEditorAssemblies (3717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (157ms)
+				SetLoadedEditorAssemblies (31ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (954ms)
+				ProcessInitializeOnLoadAttributes (2398ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (59ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4250.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 263.600400 ms (FindLiveObjects: 1.103000 ms CreateObjectMapping: 0.247300 ms MarkObjects: 261.707500 ms  DeleteObjects: 0.539400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8238ms)
+		BeginReloadAssembly (2085ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (5863ms)
+			LoadAssemblies (5610ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (838ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (934ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (554ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4253.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 7.884900 ms (FindLiveObjects: 1.034300 ms CreateObjectMapping: 0.274700 ms MarkObjects: 6.196400 ms  DeleteObjects: 0.377300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 902.544934 seconds.
+  path: Assets/Scenes/Menu Final.unity
+  artifactKey: Guid(9a5ce07714218174ab4a3914ffd754ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu Final.unity using Guid(9a5ce07714218174ab4a3914ffd754ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3f21a2bab3816f79333eb212c7f296') in 0.271092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.434512 seconds.
+  path: Assets/Scenes/Menu Final.unity
+  artifactKey: Guid(9a5ce07714218174ab4a3914ffd754ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu Final.unity using Guid(9a5ce07714218174ab4a3914ffd754ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8f23a90065970ec09ca66b913d567c') in 0.004647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.787850 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2776bcc782c71704f84a5ab3c2271354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2776bcc782c71704f84a5ab3c2271354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914a1ab6fec8889684f183615abfda35') in 0.034626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.082547 seconds.
+  path: Assets/Scenes/Menu 1.unity
+  artifactKey: Guid(d0e0024d139024f43870bf21c779b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu 1.unity using Guid(d0e0024d139024f43870bf21c779b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56de729fc6c589fba869ced203bc57d9') in 0.002837 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015271 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4157ms)
+		BeginReloadAssembly (737ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (272ms)
+		EndReloadAssembly (2985ms)
+			LoadAssemblies (471ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (911ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (196ms)
+			SetupLoadedEditorAssemblies (1317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (330ms)
+				ProcessInitializeOnLoadAttributes (776ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 653.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4256.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 15.395800 ms (FindLiveObjects: 1.616400 ms CreateObjectMapping: 0.656500 ms MarkObjects: 12.031400 ms  DeleteObjects: 1.087200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1749.348711 seconds.
+  path: Assets/Scenes/Final.unity
+  artifactKey: Guid(575690a7b03750042ae4592a1c2cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final.unity using Guid(575690a7b03750042ae4592a1c2cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae68ade88deff3a3f7910e5cf8900bcb') in 38.630293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034756 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (12).png
+  artifactKey: Guid(4076c92f6a53788408fb9c5b5759cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (12).png using Guid(4076c92f6a53788408fb9c5b5759cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568cd7545b95a88e425de2fa05742f7') in 68.486331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (14).png
+  artifactKey: Guid(2dc64c6829caa2d46b4cb06033fec00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (14).png using Guid(2dc64c6829caa2d46b4cb06033fec00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bc3f40ecf270755fa174c8efd6f4c5') in 0.325737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (11).png
+  artifactKey: Guid(61f642ebd906dde4baa3160733ec5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (11).png using Guid(61f642ebd906dde4baa3160733ec5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d51eaa4df1d69c16ee7c38e34bb33') in 0.451237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (17).png
+  artifactKey: Guid(10d93e1727a7c384795912a66ddc4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (17).png using Guid(10d93e1727a7c384795912a66ddc4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c105bae23047a499f3e98e2c40d2c80e') in 0.847090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (9).png
+  artifactKey: Guid(bb3b00de4b1a9174a81ee2ad2079928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (9).png using Guid(bb3b00de4b1a9174a81ee2ad2079928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe1e68d16d6788cc08bff6aec129551') in 0.379016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (8).png
+  artifactKey: Guid(19a2e2c975a78724d90b557c14f939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (8).png using Guid(19a2e2c975a78724d90b557c14f939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508b6a03b614ac9b7d539982dff78b2') in 0.716271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (8).png
+  artifactKey: Guid(84f13216cfb8c6c4485923ab5921a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (8).png using Guid(84f13216cfb8c6c4485923ab5921a22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309b29ca3e1f2e38678e3a70b68824a') in 0.470451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (1).png
+  artifactKey: Guid(6959125cd96545a4e8f4f8ee74eae73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (1).png using Guid(6959125cd96545a4e8f4f8ee74eae73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0558e71efd9fc7ceeaff460a9958de58') in 0.688643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (10).png
+  artifactKey: Guid(429ba39b62808e548b3c783613e1e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (10).png using Guid(429ba39b62808e548b3c783613e1e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fab604904d244fdfac715a401da435') in 0.360143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (3).png
+  artifactKey: Guid(aad865884c2f38a4d8040520720b24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (3).png using Guid(aad865884c2f38a4d8040520720b24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf3140af6b2efc8e5ef42dc6492ca4a') in 1.112702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (23).png
+  artifactKey: Guid(279794ef976dfcd4ca91078110d89d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (23).png using Guid(279794ef976dfcd4ca91078110d89d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48d0c00b4a91b83806b92438251e85d') in 0.521708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (29).png
+  artifactKey: Guid(549ed97472d2f8c4fbee57a6f072f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (29).png using Guid(549ed97472d2f8c4fbee57a6f072f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee02673deeb6c7dd2d86a57e0f381da') in 0.527471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (2).png
+  artifactKey: Guid(372903b6c573f084e9108848c37dfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (2).png using Guid(372903b6c573f084e9108848c37dfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68c25b981facd34181d57f1fb311842') in 0.220399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (6).png
+  artifactKey: Guid(04649375b6c7f6642b156d659546f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (6).png using Guid(04649375b6c7f6642b156d659546f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee20aee511374b410f5b2e04d6f8a352') in 0.433887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (13).png
+  artifactKey: Guid(24533ef0c95a06245811fefe15a558aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (13).png using Guid(24533ef0c95a06245811fefe15a558aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae25c2dd202bb572ce97c5bcea99429') in 0.169212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (6).png
+  artifactKey: Guid(939beb8345f145149a6873d9ff04d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (6).png using Guid(939beb8345f145149a6873d9ff04d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e62daf2bcdc43d4dd05531f7dd4d50') in 0.387436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (22).png
+  artifactKey: Guid(38253d39b100b2546a18601c30e1ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (22).png using Guid(38253d39b100b2546a18601c30e1ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3a4167969a7ff1204febdc8c1618fb') in 0.440841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (9).png
+  artifactKey: Guid(5764e48435af75a40a1f37bbb786a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (9).png using Guid(5764e48435af75a40a1f37bbb786a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67a740fe75c70250b7fe5b4695c605') in 0.668129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (24).png
+  artifactKey: Guid(d6423c65e947ae246ab97171ed8f52dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (24).png using Guid(d6423c65e947ae246ab97171ed8f52dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b6bb341b9402f9faa23985f75d9c85') in 0.579647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (2).png
+  artifactKey: Guid(09c2b1edc6836184e9f7db8503efddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (2).png using Guid(09c2b1edc6836184e9f7db8503efddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c610f95732e644e294c029abb515a24b') in 0.166790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (5).png
+  artifactKey: Guid(1cef67fd2b48e17449f247403954fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (5).png using Guid(1cef67fd2b48e17449f247403954fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4e7cfa819ec6b3988492a6cd7c5126') in 0.252959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (3).png
+  artifactKey: Guid(e6b79bbc7c527844184f36ad9c2447d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (3).png using Guid(e6b79bbc7c527844184f36ad9c2447d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9e4ebc566bd1e6a9b8bfef7cb4b5b5') in 0.236809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (26).png
+  artifactKey: Guid(50de081785222d54b84079bfee3db46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (26).png using Guid(50de081785222d54b84079bfee3db46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093c00ca6c0058184bc35cc1a10e160e') in 0.273903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (12).png
+  artifactKey: Guid(082033533e732294092597ea1c5d039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (12).png using Guid(082033533e732294092597ea1c5d039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc8a9027659c25fbbc80928c359a52b') in 0.479363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (15).png
+  artifactKey: Guid(54a514204047ba64e8a6ecc054a3d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (15).png using Guid(54a514204047ba64e8a6ecc054a3d435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e22967626c8e4c78baf1cf167860f0c') in 0.366669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (4).png
+  artifactKey: Guid(a4c74df0a5aa50a4d8da2e9dbbd9f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (4).png using Guid(a4c74df0a5aa50a4d8da2e9dbbd9f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52befa808c99c8e46d39f9ab31357f7') in 0.260312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (16).png
+  artifactKey: Guid(c4eecf9dedcc99b4fb3bc7442f31b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (16).png using Guid(c4eecf9dedcc99b4fb3bc7442f31b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc325336ca65b4792b46493c43dad74') in 0.339493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (7).png
+  artifactKey: Guid(e6475fa7ac88ee54da43c637cfa28a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (7).png using Guid(e6475fa7ac88ee54da43c637cfa28a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2c4c6e6f218d6cb869838da97a157e') in 0.191512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (30).png
+  artifactKey: Guid(a159e6dfc52ff07408fb1d66a19a9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (30).png using Guid(a159e6dfc52ff07408fb1d66a19a9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4bda5cbd095389dd839b6833dc010b') in 0.343296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (27).png
+  artifactKey: Guid(e63170a74416cdf4a9f94d3558bbc1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (27).png using Guid(e63170a74416cdf4a9f94d3558bbc1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af158127369dc9ea11893263e2c459a') in 0.534381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (13).png
+  artifactKey: Guid(5c70c435b03665046bf4604b475cd2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (13).png using Guid(5c70c435b03665046bf4604b475cd2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51d46db41d88db69cda420188ef2db0') in 0.725653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (5).png
+  artifactKey: Guid(8257b3e3b688cb24fa84db77e05b1c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (5).png using Guid(8257b3e3b688cb24fa84db77e05b1c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70570ce86336eba84afc40f97d92e214') in 0.224378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (5).png
+  artifactKey: Guid(0d5b6eb04b480c24f8f3f76cc0f4838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (5).png using Guid(0d5b6eb04b480c24f8f3f76cc0f4838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea96d523522cf024c21d6626f0bcfe') in 0.278553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (9).png
+  artifactKey: Guid(231c6b018a5fd5d4290cb25d3571ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (9).png using Guid(231c6b018a5fd5d4290cb25d3571ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0831aace922e778ebfe01f69410999') in 0.237575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (7).png
+  artifactKey: Guid(fee674be9c706fa419a0f796d9172ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (7).png using Guid(fee674be9c706fa419a0f796d9172ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89458e6da3f02b3def25512c1db8541') in 0.145576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (19).png
+  artifactKey: Guid(ba7f3db5226ee124cb2cf6d6e46d31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (19).png using Guid(ba7f3db5226ee124cb2cf6d6e46d31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104ed82b10227a7bb798137a7e8f17bd') in 0.207479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (10).png
+  artifactKey: Guid(a5cfc85c496d7864fb4e754bb3d9a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (10).png using Guid(a5cfc85c496d7864fb4e754bb3d9a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3550e69397a939b8299e8e1ddbfce20') in 0.481797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (25).png
+  artifactKey: Guid(743f067122d76b44ea50964f5c9c1ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (25).png using Guid(743f067122d76b44ea50964f5c9c1ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c49ca4d05610f88fd85997748c3ed14') in 0.417782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (14).png
+  artifactKey: Guid(1cfc6eb07decd3a43a1bf489cf5da8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (14).png using Guid(1cfc6eb07decd3a43a1bf489cf5da8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4918e29e71896a9ee650e5c4a4c83e3') in 0.334702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (16).png
+  artifactKey: Guid(ba3f85fd211fb1948ac65ed06d025a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (16).png using Guid(ba3f85fd211fb1948ac65ed06d025a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92255f839122c8a6dd7b9bcee63ea613') in 0.640127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (3).png
+  artifactKey: Guid(5782993a04466684bae1989b90cd6d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (3).png using Guid(5782993a04466684bae1989b90cd6d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4de962ed4691ea3567882709bd3ae70') in 0.204479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (1).png
+  artifactKey: Guid(6532cf9b354eeab4786674eeee863085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (1).png using Guid(6532cf9b354eeab4786674eeee863085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561a50705cefc6f8a37e95ee193b30d') in 0.323679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (20).png
+  artifactKey: Guid(343294f219b713d4cb5245ec11e3c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (20).png using Guid(343294f219b713d4cb5245ec11e3c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c37cdaa881cf7ef9e7f33a2d6bca86') in 0.332124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Idle (4).png
+  artifactKey: Guid(99ff6c5a5b00126498ca42b96ae4da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Idle (4).png using Guid(99ff6c5a5b00126498ca42b96ae4da2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145de89ad734659dfb06df1b1deb0949') in 0.266517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (10).png
+  artifactKey: Guid(b42c620a4e149b942a3abe31b64124b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (10).png using Guid(b42c620a4e149b942a3abe31b64124b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5014bfdd9644fc4bf725be31134f479') in 0.257570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (18).png
+  artifactKey: Guid(0c7c2365f3565494b927680a5b912cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (18).png using Guid(0c7c2365f3565494b927680a5b912cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ceb76f56823c2629a5c19c9190c9ba') in 0.511943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (15).png
+  artifactKey: Guid(44b9f1804a7aa2e47982a1488256031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (15).png using Guid(44b9f1804a7aa2e47982a1488256031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec47bb472364705ba1d11b576d884548') in 0.338271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (2).png
+  artifactKey: Guid(eea66765ecfa62c449f8e508eff5951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (2).png using Guid(eea66765ecfa62c449f8e508eff5951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea849688890c69a3eea4c4722a666e6') in 0.261117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (6).png
+  artifactKey: Guid(a8426346415d6ad4082c659fc9df2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (6).png using Guid(a8426346415d6ad4082c659fc9df2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a01f0665d73889c734f8796fee238e9') in 0.231162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (8).png
+  artifactKey: Guid(92d32772e6c49d042a0ad1adce140675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (8).png using Guid(92d32772e6c49d042a0ad1adce140675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c78a08d442771942a40fd4890a6d31') in 0.434506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (1).png
+  artifactKey: Guid(e054880324b772d4ca37d43e6493b4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (1).png using Guid(e054880324b772d4ca37d43e6493b4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bfd7308ef6489afece089075092bf4') in 0.203134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (11).png
+  artifactKey: Guid(376508d543ccb2441a59e4eef4b62300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (11).png using Guid(376508d543ccb2441a59e4eef4b62300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5341fdaabd623714d6f8301a2e0fd57') in 0.229211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (4).png
+  artifactKey: Guid(df443ac414981bc458b4b8b722ba9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (4).png using Guid(df443ac414981bc458b4b8b722ba9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19e68134f68dfb983f80aa4c7ceba36') in 0.333197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (7).png
+  artifactKey: Guid(7f344dd9e4ed38343a63e441c7e59618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (7).png using Guid(7f344dd9e4ed38343a63e441c7e59618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5b45d783bd52b4a39ace5e58ff7c21') in 0.182278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (21).png
+  artifactKey: Guid(30d54d5111792044a967d883f81c9c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (21).png using Guid(30d54d5111792044a967d883f81c9c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd85b91141612feb2a5fad22f1c7c268') in 0.309854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Dead (28).png
+  artifactKey: Guid(169d3e0c07daec04a8d1a328cc33eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Dead (28).png using Guid(169d3e0c07daec04a8d1a328cc33eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d61ae2b5fb002d63c4a1212d2e5be') in 0.204111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.255249 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (11).png
+  artifactKey: Guid(82ad7d98341b2f943935e8b781fcdcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (11).png using Guid(82ad7d98341b2f943935e8b781fcdcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea67c5af1ae7c3a20f558ee7e16ebec') in 0.210974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (13).png
+  artifactKey: Guid(6c3ba58fbd783be4790f3a840441dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (13).png using Guid(6c3ba58fbd783be4790f3a840441dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fa51fa888a90bda65bc362de2aae0d') in 0.139209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (19).png
+  artifactKey: Guid(4b8dc1ebf1bbaf9478375c65879c4173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (19).png using Guid(4b8dc1ebf1bbaf9478375c65879c4173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d4a9f2aebc7e4b29c72b72d1a5d37a') in 0.218852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (24).png
+  artifactKey: Guid(f70bab80e4b051743b4e9bf1517716df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (24).png using Guid(f70bab80e4b051743b4e9bf1517716df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd360f55cf2f19204191c09717ad8a482') in 0.294830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (18).png
+  artifactKey: Guid(a7a2b292f35d66f4d9f6ab62ed14a4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (18).png using Guid(a7a2b292f35d66f4d9f6ab62ed14a4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb03574c14b2c9ab36cfb93c378316b') in 0.114948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (12).png
+  artifactKey: Guid(ed000006d6ec6f44f9a31c27cbf1c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (12).png using Guid(ed000006d6ec6f44f9a31c27cbf1c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a663ad03eac50bc864502ac9a3609caa') in 0.099975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (29).png
+  artifactKey: Guid(bad2f5521e8ae254ba80f1cd1db654d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (29).png using Guid(bad2f5521e8ae254ba80f1cd1db654d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98554af35c9989daefb2d44bf84ca9a2') in 0.461537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (30).png
+  artifactKey: Guid(20beb421e938fda498e45066874c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (30).png using Guid(20beb421e938fda498e45066874c63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae172e46106cbd77057215b7d0fb21f1') in 0.186653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (17).png
+  artifactKey: Guid(700dbb97b00c083448d70e994cb3c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (17).png using Guid(700dbb97b00c083448d70e994cb3c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9d7dacba46081156bcd8049d6a5157') in 0.220425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (26).png
+  artifactKey: Guid(9d2ff23db8311f7429e8d1d2250298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (26).png using Guid(9d2ff23db8311f7429e8d1d2250298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60711f5f11a3260ce6f74d3c7f7d690') in 0.176210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (25).png
+  artifactKey: Guid(6b09e8acb0d21124fa324aa331727696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (25).png using Guid(6b09e8acb0d21124fa324aa331727696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d037d16c68f87c173a8c92574a38d96') in 0.129618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (16).png
+  artifactKey: Guid(cf64af6e90b13464287e5a97751d57df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (16).png using Guid(cf64af6e90b13464287e5a97751d57df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72455ae102e5b7d1b0c9284d1f96c101') in 0.106055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (20).png
+  artifactKey: Guid(5777e145ce206474a9d042c7a5cab844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (20).png using Guid(5777e145ce206474a9d042c7a5cab844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8b52479c229107ed7f02e2c502e72a') in 0.205991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (22).png
+  artifactKey: Guid(8f492dfbda400d5489c6c7fccb030feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (22).png using Guid(8f492dfbda400d5489c6c7fccb030feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a29b3c67d17da4cb433f91d97a34499') in 0.179799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Run (2).png
+  artifactKey: Guid(6127aedfe2775d441a20c4d4c2985393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Run (2).png using Guid(6127aedfe2775d441a20c4d4c2985393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3d45e239cb9c8caabd625ba6a7f7f7') in 0.127356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Run (4).png
+  artifactKey: Guid(774e5efe4b10a36449751df0342d9e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Run (4).png using Guid(774e5efe4b10a36449751df0342d9e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8888f41f802181edfcde06fd30e0a11') in 0.165653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Run (1).png
+  artifactKey: Guid(ec2458d8cec643449b9858ea9059d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Run (1).png using Guid(ec2458d8cec643449b9858ea9059d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b7aea117c2a99bf65e709be05690d7') in 0.084517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (27).png
+  artifactKey: Guid(bd8bf40992b420a4ba49d77369b14409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (27).png using Guid(bd8bf40992b420a4ba49d77369b14409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b294c221f8f05c086dd4cc4a26ee034') in 0.119550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (28).png
+  artifactKey: Guid(fc85d46edcbcbd24d9cc603090b593bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (28).png using Guid(fc85d46edcbcbd24d9cc603090b593bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165212767c3600f4d0a5d961eb48a3c') in 0.122856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (15).png
+  artifactKey: Guid(ec1cb5162ae4ed44dbd231475805fc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (15).png using Guid(ec1cb5162ae4ed44dbd231475805fc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c5b9d150773ebed8628d98fc211782') in 0.117794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (23).png
+  artifactKey: Guid(e28a8f2f549a65245b45233acd03a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (23).png using Guid(e28a8f2f549a65245b45233acd03a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f82614dd4e434a8534900b20404dcd') in 0.095969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (14).png
+  artifactKey: Guid(5c393baefb154e240a3513e544992ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (14).png using Guid(5c393baefb154e240a3513e544992ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd064662354b5656d2fa2c822c1ea3539') in 0.127493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Jump (21).png
+  artifactKey: Guid(803ecf31b3ab2064c9b853ceebf99e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Jump (21).png using Guid(803ecf31b3ab2064c9b853ceebf99e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb788493d9037b37f9265e357e6cfc7') in 0.149143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/png/Run (3).png
+  artifactKey: Guid(9d90227888f19fd4da9963cd86be501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/png/Run (3).png using Guid(9d90227888f19fd4da9963cd86be501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d687aa1f8b708a78f4ecef168157505') in 0.203614 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050628 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 21.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (21770ms)
+		BeginReloadAssembly (14710ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1744ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (10098ms)
+		EndReloadAssembly (6114ms)
+			LoadAssemblies (1290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3345ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (253ms)
+			SetupLoadedEditorAssemblies (1492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (47ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (387ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 57.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4269.
+Memory consumption went from 149.4 MB to 149.2 MB.
+Total: 11.816900 ms (FindLiveObjects: 1.075800 ms CreateObjectMapping: 0.307200 ms MarkObjects: 10.035300 ms  DeleteObjects: 0.395900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.010962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3103ms)
+		BeginReloadAssembly (806ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (76ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (372ms)
+		EndReloadAssembly (2012ms)
+			LoadAssemblies (349ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (837ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4272.
+Memory consumption went from 149.4 MB to 149.2 MB.
+Total: 158.428600 ms (FindLiveObjects: 0.986000 ms CreateObjectMapping: 0.239200 ms MarkObjects: 156.800100 ms  DeleteObjects: 0.400900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2987ms)
+		BeginReloadAssembly (753ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (451ms)
+		EndReloadAssembly (1974ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4275.
+Memory consumption went from 149.4 MB to 149.2 MB.
+Total: 8.199900 ms (FindLiveObjects: 0.993500 ms CreateObjectMapping: 0.239400 ms MarkObjects: 6.577200 ms  DeleteObjects: 0.387100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016379 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2667ms)
+		BeginReloadAssembly (431ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1924ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (630ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.1 KB). Loaded Objects now: 4278.
+Memory consumption went from 149.4 MB to 149.2 MB.
+Total: 9.229200 ms (FindLiveObjects: 1.003800 ms CreateObjectMapping: 0.240900 ms MarkObjects: 7.588000 ms  DeleteObjects: 0.393800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 595.114638 seconds.
+  path: Assets/Scenes/Templo.unity
+  artifactKey: Guid(4c6ee13405bd5e84ab5b3a44739de6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Templo.unity using Guid(4c6ee13405bd5e84ab5b3a44739de6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e4304ea06533073badd515ec93091') in 0.056469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/Final.unity
+  artifactKey: Guid(575690a7b03750042ae4592a1c2cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final.unity using Guid(575690a7b03750042ae4592a1c2cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0f322ab5383109c599ec7b0d2ce423') in 0.002511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.292053 seconds.
+  path: Assets/Prefabs/Assassino.prefab
+  artifactKey: Guid(2d1b1981d3f5c7941803dca67f1ad154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assassino.prefab using Guid(2d1b1981d3f5c7941803dca67f1ad154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80112de64469f06ba1b4cab63b7072bf') in 0.933346 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018464 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2694ms)
+		BeginReloadAssembly (442ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (1938ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (462ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4286.
+Memory consumption went from 149.5 MB to 149.3 MB.
+Total: 8.595600 ms (FindLiveObjects: 1.017100 ms CreateObjectMapping: 0.249800 ms MarkObjects: 6.935300 ms  DeleteObjects: 0.390700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016222 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3461ms)
+		BeginReloadAssembly (416ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2748ms)
+			LoadAssemblies (320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (949ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (679ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4289.
+Memory consumption went from 149.5 MB to 149.3 MB.
+Total: 8.568400 ms (FindLiveObjects: 1.093100 ms CreateObjectMapping: 0.338100 ms MarkObjects: 6.737600 ms  DeleteObjects: 0.396600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 484.204245 seconds.
+  path: Assets/Scenes/Templo.unity
+  artifactKey: Guid(79f860aeb81f5754eb4d24c4090aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Templo.unity using Guid(79f860aeb81f5754eb4d24c4090aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48de690316094acc402f29f0af46910') in 0.019031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.335846 seconds.
+  path: Assets/Scenes/CidadeAbandonada.unity
+  artifactKey: Guid(a4b39af7a1baa9a4b99f4ac4312fc6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CidadeAbandonada.unity using Guid(a4b39af7a1baa9a4b99f4ac4312fc6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12510fe568be19493bea2b97d2008b51') in 0.002591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.315443 seconds.
+  path: Assets/Scenes/Montanha 1.unity
+  artifactKey: Guid(7d57407937cfe0a4fb2271d63f2297e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Montanha 1.unity using Guid(7d57407937cfe0a4fb2271d63f2297e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56633485a20ab2d046ca25d52ae9527a') in 0.038911 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015517 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image U:\jogo\jogo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.561 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8564ms)
+		BeginReloadAssembly (2538ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (5750ms)
+			LoadAssemblies (4697ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1097ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (233ms)
+			SetupLoadedEditorAssemblies (1406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (834ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (59ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 142.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4292.
+Memory consumption went from 149.5 MB to 149.3 MB.
+Total: 9.218900 ms (FindLiveObjects: 1.050600 ms CreateObjectMapping: 0.291500 ms MarkObjects: 7.454700 ms  DeleteObjects: 0.419400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (193.3 KB). Loaded Objects now: 4292.
+Memory consumption went from 74.6 MB to 74.4 MB.
+Total: 9.445400 ms (FindLiveObjects: 0.994000 ms CreateObjectMapping: 0.257400 ms MarkObjects: 7.774100 ms  DeleteObjects: 0.416900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
